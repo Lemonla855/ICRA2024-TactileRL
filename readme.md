@@ -23,6 +23,6 @@ conda env create -f env.yaml
 
 **simulation**:Simulation environment for a batch of tactile based manipulation tasks on Xarm and allegro hand
 
-**simulationtactile_render**: Simulation environment for the tactile images.
+**simulation/tactile_render**: Simulation environment for the tactile images.
     
 **main**: Training for the tactile based，point-cloud, DAgger policy for the manipulation tasks
