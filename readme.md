@@ -21,7 +21,8 @@ conda env create -f env.yaml
 
 **eval**: Evaluation tool for the tasks(pivoting, insertion, stable placing)
 
-**simulation**: 
+**simulation**:
+
     env: Simulation environment for a batch of tactile based manipulation tasks on Xarm and allegro hand
     tactile_render: Simulation environment for the tactile images.
     
