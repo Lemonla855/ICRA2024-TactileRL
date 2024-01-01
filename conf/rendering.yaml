@@ -1,0 +1,85 @@
+sensor:
+  camera:
+    at:
+    - 0.022
+    - 0
+    - 0.015
+    caliberation_rgb: false
+    calibration: true
+    difference_img: false
+    eye:
+    - 0.005
+    - 0
+    - 0.015
+    fyov: 60
+    height: 32
+    image_size: 32
+    width: 32
+    znear: 0.001
+  force:
+    enable: true
+    max_deformation: -0.03
+    range_force:
+    - 0
+    - 10
+  gel:
+    R: 0.1
+    countW: 100
+    curvature: true
+    curvatureMax: 0.005
+    height: 0.03
+    origin:
+    - 0.022
+    - 0
+    - 0.015
+    width: 0.02
+  lights:
+    colors:
+    - - 1
+      - 0
+      - 0
+    - - 0
+      - 1
+      - 0
+    - - 0
+      - 0
+      - 1
+    intensities:
+    - 1
+    - 1
+    - 1
+    noise:
+      color:
+        mean: 0
+        std: 7
+    origin:
+    - 0.015
+    - 0
+    - 0.015
+    polar: true
+    xrtheta:
+      rs:
+      - 0.027
+      - 0.027
+      - 0.027
+      thetas:
+      - 40
+      - 140
+      - 270
+      xs:
+      - -0.01
+      - -0.01
+      - -0.01
+    xyz:
+      coords:
+      - - 0
+        - 0.01732
+        - 0.03
+      - - 0
+        - -0.01732
+        - 0.03
+      - - 0
+        - 0
+        - -0.03
+  batch_size:
+    64
